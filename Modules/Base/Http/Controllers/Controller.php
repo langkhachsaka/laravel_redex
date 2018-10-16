@@ -88,7 +88,7 @@ class Controller extends BaseController
         foreach ($messageBag->messages() as $attr => $msg) {
             $messages[$attr] = data_get($msg, 0);
 
-
+            
             /////////////////////////////
             // quick solution. Convert from $msg['a.b'] = 'x' TO $msg['a']['b'] = 'x'
             // for array validate (Redux form)

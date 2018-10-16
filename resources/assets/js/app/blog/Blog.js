@@ -104,7 +104,7 @@ class Blog extends Component {
                                     {userPermissions.blog.create &&
                                     <button className="btn btn-primary btn-sm btn-block" onClick={() => {
                                         this.props.actions.openMainModal(<Form
-                                            setListState={this.setState.bind(this)}/>, "Thêm kho hàng mới");
+                                            setListState={this.setState.bind(this)}/>, "Thêm mới");
                                     }}><i className="ft-plus"/>{' '} Thêm
                                     </button>}
                                 </th>

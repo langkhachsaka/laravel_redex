@@ -84,7 +84,7 @@ class Form extends Component {
                 <div className="form-group">
                     <button type="submit" className="btn btn-lg btn-primary" disabled={submitting || pristine}>
                         <i className="fa fa-fw fa-check"/>
-                        {model ? 'Cập nhật' : 'Thêm mới'}
+                        {model ? 'Cập nhật' : 'Thêm'}
                     </button>
                 </div>
 
