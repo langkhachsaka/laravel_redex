@@ -1,0 +1,16 @@
+{
+    "name": "BillOfLading",
+    "alias": "billoflading",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 7,
+    "providers": [
+        "Modules\\BillOfLading\\Providers\\BillOfLadingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
