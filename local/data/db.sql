@@ -1,0 +1,8 @@
+
+CREATE DATABASE redex CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+USE mysql;
+
+CREATE USER 'redex'@'localhost' IDENTIFIED BY '123456';
+GRANT ALL PRIVILEGES ON redex.* TO 'redex'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;

@@ -1,0 +1,8 @@
+Ubuntu 16 with LAMP stack
+
+Virtual Box 5.1
+Vagrant 1.8.6
+
+vagrant plugin install vagrant-vbguest
+vagrant plugin install vagrant-hostsupdater
+vagrant plugin install vagrant-reload

@@ -1,0 +1,5 @@
+USE mysql;
+
+CREATE USER 'php'@'localhost' IDENTIFIED BY '';
+GRANT ALL PRIVILEGES ON *.* TO 'php'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
