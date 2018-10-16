@@ -1,0 +1,16 @@
+{
+    "name": "AreaCode",
+    "alias": "areacode",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 2,
+    "providers": [
+        "Modules\\AreaCode\\Providers\\AreaCodeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

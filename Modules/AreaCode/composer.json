@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/areacode",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AreaCode\\Providers\\AreaCodeServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AreaCode\\": ""
+        }
+    }
+}
