@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/chinaorder",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ChinaOrder\\Providers\\ChinaOrderServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ChinaOrder\\": ""
+        }
+    }
+}

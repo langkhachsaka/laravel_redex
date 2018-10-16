@@ -1,0 +1,16 @@
+{
+    "name": "ChinaOrder",
+    "alias": "chinaorder",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 4,
+    "providers": [
+        "Modules\\ChinaOrder\\Providers\\ChinaOrderServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

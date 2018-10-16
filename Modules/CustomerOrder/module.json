@@ -1,0 +1,16 @@
+{
+    "name": "CustomerOrder",
+    "alias": "customerorder",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 2,
+    "providers": [
+        "Modules\\CustomerOrder\\Providers\\CustomerOrderServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
