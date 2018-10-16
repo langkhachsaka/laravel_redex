@@ -1,0 +1,16 @@
+{
+    "name": "WarehouseReceivingVN",
+    "alias": "warehousereceivingvn",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\WarehouseReceivingVN\\Providers\\WarehouseReceivingVNServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

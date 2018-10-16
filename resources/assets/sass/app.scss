@@ -1,0 +1,33 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700");
+
+@import url("https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css");
+//@import url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css");
+
+// Variables
+@import "variables";
+
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+//@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css");
+//@import url("https://pixinvent.com/modern-admin-clean-bootstrap-4-dashboard-html-template/app-assets/css/bootstrap.min.css");
+@import "modern-admin/bootstrap.css";
+
+@import '~react-redux-toastr/src/styles/index';
+@import '~react-select2-wrapper/css/select2.css';
+@import '~react-datepicker/dist/react-datepicker.css';
+
+// theme
+@import "modern-admin/feather/style.css";
+@import "modern-admin/bootstrap-extended.css";
+@import "modern-admin/colors.css";
+@import "modern-admin/components.css";
+@import "modern-admin/vertical-menu.css";
+@import "modern-admin/palette-gradient.css";
+@import "modern-admin/palette-callout.css";
+@import "modern-admin/form-validation.css";
+
+// custom style
+@import "styles";
+@import "form_order_item";

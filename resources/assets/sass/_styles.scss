@@ -1,0 +1,497 @@
+
+.fixed-top {
+  z-index: 110;
+}
+
+.main-menu {
+  z-index: 100;
+  position: absolute;
+  display: table-cell;
+}
+
+.drop-zone {
+  cursor: pointer;
+}
+
+.react-datepicker__input-container, .react-datepicker-wrapper {
+  display: block;
+}
+
+.column-actions {
+  text-align: center;
+}
+
+.card-loading-overlay {
+  z-index: 1000;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  cursor: wait;
+  position: absolute;
+}
+
+.card-loading-msg {
+  z-index: 1011;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 10%;
+  top: 50%;
+  left: 45%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border: 0;
+  cursor: wait;
+}
+
+.form-simple input[type=text] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0
+}
+
+.form-simple input[type=mail] {
+  margin-bottom: -1px;
+  border-radius: 0
+}
+
+.form-simple input[type=password] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+  .ReactModal__Overlay {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  @media (min-width: 992px) {
+    .ReactModal__Content {
+      width: 90%;
+    }
+  }
+}
+
+.images-input-preview {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+  > div {
+    display: block;
+    float: left;
+    border: 1px solid #ccc;
+    margin: 5px;
+    box-shadow: 2px 3px 4px;
+    height: 202px;
+    overflow: hidden;
+  }
+  .img-preview {
+    position: relative;
+    & > a {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #f34237;
+      opacity: 0.4;
+      color: #fff;
+      padding: 1px 4px;
+      &:hover {
+        opacity: 1;
+        color: #fff;
+      }
+    }
+    & > img {
+      height: 200px;
+    }
+  }
+  .drop-zone {
+    display: inline-block;
+    width: 200px;
+    &:hover {
+      background-color: #c3c3c3;
+    }
+    .drop-zone-text {
+      display: block;
+      line-height: 40px;
+      font-weight: bold;
+      color: #f34237;
+      padding-top: 80px;
+      text-align: center;
+    }
+  }
+}
+
+.table {
+  td, thead th {
+    vertical-align: middle;
+  }
+  td {
+    border-top: none;
+  }
+  .table:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.react-datepicker-range-wrapper {
+  margin-left: -2px;
+  margin-right: -2px;
+  & > .form-group {
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 50%;
+    display: inline-block;
+    .react-datepicker-wrapper {
+      display: block;
+    }
+    .react-datepicker__input-container {
+      display: block;
+    }
+  }
+}
+
+.order-item-images-preview {
+  .image-preview {
+    text-align: center;
+    height: 550px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    img {
+      height: 100%;
+    }
+  }
+  .images-thumb {
+    margin-top: 20px;
+    width: 100%;
+    clear: both;
+    display: block;
+    text-align: center;
+    .img-thumb {
+      display: inline-block;
+      height: 100px;
+      margin: 2px;
+      opacity: 0.6;
+      border: 1px solid #ccc;
+      &:hover, &.active {
+        opacity: 1;
+        border: 1px solid #cbf7bf;
+      }
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.list-cn-order-items {
+  .cn-order-item {
+    .item-name {
+      a {}
+    }
+    p {
+      margin-bottom: 2px;
+    }
+    .item-description {
+      font-style: italic;
+    }
+    .item-colour {}
+    .item-size {}
+    .item-unit {}
+    .item-shop {}
+  }
+}
+
+.customer-order-import-form {
+  text-align: center;
+  .drop-zone {
+    border: 1px dashed #3c3c3c;
+    height: 200px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    .drop-zone-text, .drop-zone-uploaded-text {
+      line-height: 200px;
+      font-size: 24px;
+    }
+  }
+}
+.bar-dot-bottom {
+  border-bottom: 1px dotted #bbb;
+  margin-bottom: 7px;
+}
+
+.comment-update {
+  border-radius: 10px;
+  margin: 0px 3px 5px 17px;
+}
+
+.comment-update {
+  border-radius: 10px;
+  margin: 0px 3px 5px 17px;
+}
+
+.blue-color-text {
+    color: #0070ff;
+}
+
+.change-description {
+  padding-left: 24px;
+}
+
+.darkgrey-color {
+  background-color: #e2e2e2;
+}
+
+.rich-text {
+  padding-bottom: 15px;
+}
+
+.red-color {
+   color: red;
+ }
+.green-color {
+  color: green;
+}
+
+.account-deposited {
+  width: 100%;
+  display: block;
+  margin-left: 15px;
+  margin-right: 13px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 1px solid #cacfe7;
+}
+
+.fiedset-verify-customer-order {
+  width: 100%;
+  display: block;
+  margin-right: 13px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 1px solid #cacfe7;
+}
+
+.fiedset-verify-bill-of-lading {
+  width: 100%;
+  display: block;
+  margin-left: 13px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 1px solid #cacfe7;
+}
+.legend-account-deposited {
+  width: auto !important;
+}
+
+legend{
+  font-size: 15px!important;
+  font-weight: bold;
+}
+
+.vl {
+  border-left: 2px solid #cacfe7;
+  height: 340px;
+  margin-left: -32px;
+}
+.hl {
+  border-top: 2px solid #cacfe7;
+  padding: 10px;
+}
+.checkbox-item-verify {
+  width: 17px;
+  height: 17px;
+  margin-left: 7px;
+}
+/* trinq
+*  make datetimepicker can show
+*/
+.ReactModal__Content.ReactModal__Content--after-open {
+  overflow: unset !important;
+}
+.react-datepicker-popper {
+  z-index: 1151 !important;
+}
+
+.img-thumbnail-verify{
+  max-width: 100%;
+  height: 200px;
+  padding: 3px;
+  border-radius: 6px;
+}
+
+.h100{
+  height:100%;
+}
+.mgt-10{
+  margin-top: 10px;
+}
+
+.bgc-grey{
+  background-color: #f4f5fa;
+}
+
+.ta-right{
+  text-align: right;
+}
+.col-input-info-verify{
+  margin-top: -7px;
+  padding-bottom: 10px;
+  margin-left: -20px;
+}
+
+.lh-40 {
+  line-height: 40px;
+}
+
+
+.image-preview-verify {
+  text-align: center;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+.images-thumb-verify {
+  margin-top: 20px;
+  width: 100%;
+  clear: both;
+  display: block;
+  text-align: center;
+  .img-thumb-verify {
+    display: inline-block;
+    height: 40px;
+    margin: 2px;
+    opacity: 0.6;
+    border: 1px solid #ccc;
+    &:hover, &.active {
+      opacity: 1;
+      border: 1px solid #cbf7bf;
+    }
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.red-color-bold-text {
+  color: red;
+  font-weight: bold;
+}
+.checkbox-insert-into-shipment {
+  width: 17px;
+  height: 17px;
+  margin-left: 7px;
+}
+
+.padding-tb-10{
+  padding: 10px 0px 10px 0px;
+}
+
+.row-button-function {
+  margin-bottom: 6px;
+}
+
+.input-verify-lading {
+  display: inline-block;
+  width:85%;
+}
+
+.bgc-ghostwhite {
+  background: ghostwhite;
+}
+
+.order-summary {
+  h5 {
+    line-height: 31px;
+  }
+}
+
+.txt-align-right{
+  text-align: right;
+}
+
+.vertical-align-mid {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.comment-cskh-kh {
+  overflow: auto;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.top-10px{
+  top:10px;
+}
+.text-align-right{
+  text-align: right;
+}
+.total-order{
+  background: #ebebeb;
+  border:1px solid #d7d7d7;
+}
+.total-order .chiphi{
+  display:table;
+  width: 100%;
+}
+.total-order .chiphi .rd-left{
+  display: table-cell;
+  width: 50%;
+  padding: 20px;
+}
+.total-order .chiphi .rd-left ul{
+  list-style: none;
+}
+.total-order .chiphi .rd-left ul:last-child > li > div:first-child {
+  font-size: 22px;
+  color: red
+}
+.total-order .chiphi .rd-left ul > li{
+  position: relative;
+  border-bottom: 1px dashed #d5d5d5;
+  padding: 5px 0px;
+}
+.total-order .chiphi .rd-left ul > li .rd-prime{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.total-order .chiphi .rd-left ul > li .rd-prime span{
+  color: red;
+  font-weight: 700
+}
+.total-order .chiphi .rd-right{
+  display: table-cell;
+  width: 50%;
+  padding: 20px;
+}
+.btn-alert-not-enough{
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+}

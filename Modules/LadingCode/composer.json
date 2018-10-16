@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/ladingcode",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\LadingCode\\Providers\\LadingCodeServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LadingCode\\": ""
+        }
+    }
+}

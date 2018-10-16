@@ -1,0 +1,16 @@
+{
+    "name": "Statistical",
+    "alias": "statistical",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Statistical\\Providers\\StatisticalServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

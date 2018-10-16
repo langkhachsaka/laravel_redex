@@ -1,0 +1,16 @@
+{
+    "name": "VerifyLadingCode",
+    "alias": "verifyladingcode",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\VerifyLadingCode\\Providers\\VerifyLadingCodeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

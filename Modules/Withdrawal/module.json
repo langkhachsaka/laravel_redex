@@ -1,0 +1,16 @@
+{
+    "name": "Withdrawal",
+    "alias": "withdrawal",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Withdrawal\\Providers\\WithdrawalServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

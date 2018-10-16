@@ -1,0 +1,16 @@
+{
+    "name": "LadingCode",
+    "alias": "ladingcode",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\LadingCode\\Providers\\LadingCodeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
