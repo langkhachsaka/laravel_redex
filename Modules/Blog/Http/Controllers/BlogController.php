@@ -63,6 +63,7 @@ class BlogController extends Controller
         $blog ->fill($requestData);
         $blog ->save();
 
+        
         return $this->respondSuccessData();
     }
 
