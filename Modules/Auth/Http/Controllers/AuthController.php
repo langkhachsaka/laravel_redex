@@ -329,11 +329,7 @@ class AuthController extends Controller
                 'create' => auth()->user()->can('create', Blog::class),
                 'update' => auth()->user()->can('update', Blog::class),
                 'delete' => auth()->user()->can('delete', Blog::class),
-                // 'index' => true,
-                // 'view' => true,
-                // 'create' => true,
-                // 'update' => true,
-                // 'delete' => true,
+                
             ],
         ];
     }
