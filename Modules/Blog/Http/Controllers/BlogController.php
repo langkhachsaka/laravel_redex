@@ -64,7 +64,7 @@ class BlogController extends Controller
         $blog ->save();
 
         
-        return $this->respondSuccessData();
+        return $this->respondSuccessData($blog,'Thêm Blog Thành Công');
     }
 
     /**
