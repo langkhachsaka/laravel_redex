@@ -17,13 +17,13 @@ class ActionButtons extends Component {
 
         const btnUpdate = <button key="btn-update" className="btn btn-sm btn-info square" onClick={() => {
             this.props.actions.openMainModal(<Form model={model}
-                                                   setListState={this.props.setListState}/>, "Sửa thông tin kho hàng");
+                                                   setListState={this.props.setListState}/>, "Sửa thông tin ");
         }}><i className="ft-edit"/></button>;
 
         const btnDelete = <button key="btn-delete" className="btn btn-sm btn-danger square" onClick={() => {
             swal({
                 title: "Xóa ",
-                text: "Bạn có chắc chắn muốn xoá kho hàng này?",
+                text: "Bạn có chắc chắn muốn xoá?",
                 icon: "warning",
                 buttons: true,
                 dangerMode: true,

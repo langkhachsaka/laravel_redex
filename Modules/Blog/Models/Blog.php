@@ -28,8 +28,8 @@ class Blog extends BaseModel
     public function getTypeNameAttribute()
     {
         $types = [
-            1 => 'Kho Việt Nam',
-            2 => 'Kho Trung Quốc'
+            1 => ' Việt Nam',
+            2 => ' Trung Quốc'
         ];
         return data_get($types, $this->type);
     }

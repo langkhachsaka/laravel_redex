@@ -18,8 +18,8 @@ const Constant = {
     TYPE_VN: 1,
     TYPE_TQ: 2,
     TYPES: [
-        {id: 1, text: "Kho VN"},
-        {id: 2, text: "Kho TQ"},
+        {id: 1, text: " VN"},
+        {id: 2, text: "TQ"},
     ],
 
 };

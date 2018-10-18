@@ -33,7 +33,7 @@ class Blog extends Component {
     componentDidMount() {
         this.fetchData();
 
-        this.props.actions.changeThemeTitle("Kho hàng");
+        this.props.actions.changeThemeTitle("Blog");
     }
 
     componentWillReceiveProps(nextProps) {
